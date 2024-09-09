@@ -1,6 +1,6 @@
-import helloworld from "./helloworld";
 import { Hono } from "hono";
 import { handle } from "hono/vercel";
+import helloworld from "./helloworld";
 
 export const runtime = "edge";
 
